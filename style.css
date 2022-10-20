@@ -1,0 +1,52 @@
+body {
+    background:#141414;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+
+.container {
+    margin: auto;
+    max-width: 650px;
+    padding-bottom: 0;
+    box-sizing: border-box;
+}
+a {
+    color: #6ca1de;
+}
+.card {
+    color:rgb(255, 255, 255);
+    background: #191919;
+    border: 2px dashed rgba(231, 49, 95, 0.425);
+    border-left: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+    padding: 0 0 2% 5%;
+    box-shadow: -5px 0px lime;
+}
+.top-box {
+    background: #141414;
+    border: none;
+    margin: 0;
+    padding: 0 0 0 5%;
+    box-shadow: none;
+}
+.bottom-box {
+    padding-bottom: 1%;
+    background: #191919;
+    color: whitesmoke;
+    border-color: rgba(231, 49, 95, 0.425);
+    border-left: none;
+}
+.avatar {
+    margin-top: 15px;
+    padding: 3px;
+    border: 2px dashed whitesmoke;
+    border-radius: 100%;
+    max-width: 90px;
+    max-height: 90px;
+}
+.red-span {
+    color: red;
+}
